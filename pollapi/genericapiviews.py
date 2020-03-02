@@ -34,4 +34,6 @@ class CreateVote(APIView):
 
 
 class UserCreate(generics.CreateAPIView):
+    authentication_classes = ()
+    permission_classes = ()
     serializer_class = UserSerilizer
