@@ -26,5 +26,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('pollapi.urls')),
     path('swagger-docs/', schema_view),
-    path('docs/', schema_view2)
+    path('docs/', schema_view2),
 ]
